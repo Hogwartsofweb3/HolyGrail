@@ -1,0 +1,35 @@
+{
+  "name": "smart-transaction-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hogwartsofweb3/HolyGrail.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Hogwartsofweb3/HolyGrail/issues"
+  },
+  "homepage": "https://github.com/Hogwartsofweb3/HolyGrail#readme",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.101.0",
+    "@solana/web3.js": "^1.98.4",
+    "@triton-one/yellowstone-grpc": "^5.0.8",
+    "bs58": "^6.0.0",
+    "dotenv": "^17.4.2",
+    "jito-ts": "^4.2.1",
+    "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
