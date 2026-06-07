@@ -1,4 +1,15 @@
-import Client, { SlotStatus, SubscribeRequest } from "@triton-one/yellowstone-grpc";
+import Client, { SubscribeRequest } from "@triton-one/yellowstone-grpc";
+
+enum SlotStatus {
+  SLOT_PROCESSED = 0,
+  SLOT_CONFIRMED = 1,
+  SLOT_FINALIZED = 2,
+  SLOT_FIRST_SHRED_RECEIVED = 3,
+  SLOT_COMPLETED = 4,
+  SLOT_CREATED_BANK = 5,
+  SLOT_DEAD = 6,
+  UNRECOGNIZED = -1
+}
 import { Connection, Keypair } from "@solana/web3.js";
 import * as fs from "fs";
 import * as path from "path";
