@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "setup-wallet": "tsx scripts/setup-wallet.ts",
+    "test-stream": "tsx src/tests/stream-test.ts",
     "start": "tsx src/index.ts"
   },
   "bugs": {
