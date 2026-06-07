@@ -2,18 +2,12 @@
   "name": "smart-transaction-stack",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup-wallet": "tsx scripts/setup-wallet.ts",
+    "start": "tsx src/index.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Hogwartsofweb3/HolyGrail.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Hogwartsofweb3/HolyGrail/issues"
   },
@@ -30,6 +24,7 @@
   "devDependencies": {
     "@types/node": "^25.9.2",
     "ts-node": "^10.9.2",
+    "tsx": "^4.22.4",
     "typescript": "^6.0.3"
   }
 }
